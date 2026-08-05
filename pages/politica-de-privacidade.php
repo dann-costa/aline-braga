@@ -2,7 +2,9 @@
   <section class="legal-hero">
     <div class="container-page legal-container">
       <a href="/" class="legal-back" aria-label="Voltar para a página inicial">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 12H5M12 19l-7-7 7-7" />
+        </svg>
         Voltar para a página inicial
       </a>
       <span class="eyebrow">Documento legal</span>
@@ -49,7 +51,7 @@
         <p>Esta Política de Privacidade poderá ser atualizada para refletir alterações no site, nos serviços ou na legislação. A versão vigente permanecerá disponível nesta página.</p>
 
         <h2>11. Contato</h2>
-        <p>Solicitações relacionadas à privacidade e ao tratamento de dados podem ser encaminhadas pelo telefone ou WhatsApp <a href="https://wa.me/5512996847645" target="_blank" rel="noopener">(12) 99684-7645</a>.</p>
+        <p>Solicitações relacionadas à privacidade e ao tratamento de dados podem ser encaminhadas pelo telefone ou WhatsApp <a href="https://wa.me/5512988406870" target="_blank" rel="noopener">(12) 98840-6870</a>.</p>
       </div>
     </div>
   </section>

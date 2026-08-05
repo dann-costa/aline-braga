@@ -7,7 +7,7 @@
     </div>
     <div>
       <strong>Contato</strong>
-      <a href="tel:+5512996847645"><i class="fa-solid fa-phone" aria-hidden="true"></i> (12) 99684-7645</a>
+      <a href="tel:+5512988406870"><i class="fa-solid fa-phone" aria-hidden="true"></i> (12) 98840-6870</a>
       <a href="https://www.instagram.com/alinebraga" target="_blank" rel="noopener"><i class="fa-brands fa-instagram" aria-hidden="true"></i> @alinebraga</a>
     </div>
     <div>
@@ -33,14 +33,14 @@
   </div>
 </footer>
 
-<a class="whatsapp-float" href="https://wa.me/5512996847645?text=Ol%C3%A1%2C%20Dra.%20Aline!%20Vi%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" aria-label="Falar com a Dra. Aline pelo WhatsApp" title="Falar pelo WhatsApp">
+<a class="whatsapp-float" href="https://wa.me/5512988406870?text=Ol%C3%A1%2C%20Dra.%20Aline!%20Vi%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" aria-label="Falar com a Dra. Aline pelo WhatsApp" title="Falar pelo WhatsApp">
   <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
 </a>
 
 <?php if ($showMobileCtaBar): ?>
   <div id="mobile-cta-bar" class="mobile-bar">
     <span>Agende sua consulta</span>
-    <a href="https://wa.me/5512996847645?text=Ol%C3%A1%2C%20Dra.%20Aline!%20Quero%20agendar%20uma%20consulta." target="_blank" rel="noopener">Falar no WhatsApp</a>
+    <a href="https://wa.me/5512988406870?text=Ol%C3%A1%2C%20Dra.%20Aline!%20Quero%20agendar%20uma%20consulta." target="_blank" rel="noopener">Falar no WhatsApp</a>
   </div>
 <?php endif; ?>
 
