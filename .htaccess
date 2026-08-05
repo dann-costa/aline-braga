@@ -1,0 +1,25 @@
+# ==========================================================================
+# .htaccess — hospedagem Apache/cPanel (a Vercel usa vercel.json, não isso).
+# Duas regras: assets fisicamente em /public/assets são servidos como se
+# estivessem em /assets (mesma URL usada no código e na Vercel), e toda URL
+# que não for um arquivo/pasta real vai para index.php, que decide o que
+# mostrar (ver o array $routes em config/routes.php). Requer mod_rewrite.
+# ==========================================================================
+
+DirectoryIndex index.php
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteCond %{REQUEST_URI} ^/assets/
+  RewriteRule ^assets/(.+)$ public/assets/$1 [L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.php [QSA,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteRule ^(inc|pages|config)/ - [F,L]
+</IfModule>
